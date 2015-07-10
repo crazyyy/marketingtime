@@ -28,8 +28,6 @@
 
                 <p class="logotext">MarketingTime</p>
                 <p class="logodesc">маркетинговое агентство</p>
-                <p class="logodesc">подразделение <span>LandingPage.bz</span>
-                </p>
 
               </div>
             </a>
@@ -58,19 +56,11 @@
             <div class="megamenu_container megamenu_dark_bar megamenu_light">
               <!-- Begin Menu Container -->
 
-
               <ul class="megamenu">
-                <!-- Begin Mega Menu -->
                 <li>
-                  <a href="http://marketingtime.ru/#_" class="megamenu_drop">Выберите ваш город</a>
-                  <!-- Begin Item -->
+                  <button class="obut modalf obut modalfsmaill action1">Заказать звонок</button>
                 </li>
-                <!-- End Item -->
-
-
               </ul>
-              <!-- End Mega Menu -->
-
 
             </div>
           </div>
@@ -1057,6 +1047,30 @@
     <p style=" display: block; text-align: center; font-size: 10px; padding-bottom: 5px; color:#fff;">© MarketingTime.bz. Все права защищены. Копирование материалов запрещено!</p>
   </footer>
 
+
+
+
+      <form class="landform" action="data/form.php" method="POST">
+        <h3>Оставьте заявку</h3>
+        <p><span>на бесплатный тест-драйв</span> в течение 14 дней и наш менеджер перезвонит вам в течение 15 минут</p>
+        <input type="text" name="name" placeholder="Введите Ваше имя" />
+        <input type="tel" name="phone" placeholder="Укажие телефон 0 (000) 000-00-00" />
+        <input type="hidden" name="hidden" value="ok">
+        <button>Отправить</button>
+        <h6 class="message">Отправляем...</h6>
+        <div class="thanx">
+          <h4>Благодарим вас за заявку</h4>
+          <p>Менеджер свяжется с вами в ближайшее время. <br>
+          А пока можете:</p>
+          <ul>
+            <li>посмотреть короткое видео <a href='https://www.youtube.com/watch?v=9lhxtPUNP4I' target="_blank" class='yt'>«Уничтожитель комаров SketteerVac»</a></li>
+            <li>ознакомиться с <a href='instruction.pdf' target="_blank" class='pdf'>инструкцией по применению</a></li>
+          </ul>
+        </div><!-- thanx -->
+      </form>
+
+
+
   <div style="display:none">
     <div class="modalca" id="modalf">
       <div class="box-modal_close arcticmodal-close"></div>
@@ -1064,19 +1078,12 @@
         <div class="topfname">Оставьте заявку
           <br>и мы свяжемся с вами
           <br>в ближайшее время</div>
-        <form action="http://marketingtime.ru/php/submit.php" method="post" id="fff5" class="contactform">
+        <form action="data/form.php" method="post" id="fff5" class="contactform">
           <input type="text" name="name" placeholder="Введите имя:" class="validate[required]">
           <input type="text" name="phone" placeholder="Введите телефон:" class="phone validate[required,custom[phone]]">
           <input type="text" name="email" placeholder="Введите e-mail:" class="email validate[required,custom[email]]">
-          <input name="utm_medium" class="utm_medium" value="" type="hidden">
-          <input name="utm_source" class="utm_source" value="" type="hidden">
-          <input name="utm_campaign" class="utm_campaign" value="" type="hidden">
-          <input name="utm_term" class="utm_term" value="" type="hidden">
-          <input name="utm_content" class="utm_content" value="" type="hidden">
-          <input name="block" class="block" value="" type="hidden">
-          <input name="keyword" class="keyword" value="" type="hidden">
-          <input name="position" class="position" value="" type="hidden">
           <input type="hidden" name="action" value="">
+          <input type="hidden" name="hidden" value="ok">
           <button type="submit" class="polbut obut">Отправить заявку</button>
         </form>
       </div>
@@ -1087,19 +1094,12 @@
         <div class="topfname">Задайте вопрос
           <br>и мы свяжемся с вами
           <br>в ближайшее время</div>
-        <form action="http://marketingtime.ru/php/submit.php" method="post" id="fff4" class="contactform">
+        <form action="data/form.php" method="post" id="fff4" class="contactform">
           <input type="text" name="name" placeholder="Введите имя:" class="validate[required]">
           <input type="text" name="email" placeholder="Введите e-mail:" class="email validate[required,custom[email]]">
           <textarea name="question" placeholder="Ваш вопрос"></textarea>
-          <input name="utm_medium" class="utm_medium" value="" type="hidden">
-          <input name="utm_source" class="utm_source" value="" type="hidden">
-          <input name="utm_campaign" class="utm_campaign" value="" type="hidden">
-          <input name="utm_term" class="utm_term" value="" type="hidden">
-          <input name="utm_content" class="utm_content" value="" type="hidden">
-          <input name="block" class="block" value="" type="hidden">
-          <input name="keyword" class="keyword" value="" type="hidden">
-          <input name="position" class="position" value="" type="hidden">
           <input type="hidden" name="action" value="">
+          <input type="hidden" name="hidden" value="ok">
           <button type="submit" class="polbut obut">Задать вопрос</button>
         </form>
       </div>

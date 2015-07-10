@@ -4765,7 +4765,7 @@ if (ischrome) {
           e(t).ajaxSubmit({
             type: "POST",
             data: e(t).serialize(),
-            url: "contact.php",
+            url: "data/form.php",
             success: function() {
               e("#megamenu_form fieldset").fadeTo("slow", .3, function() {
                 e("#success").fadeIn()
