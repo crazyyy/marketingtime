@@ -110,7 +110,7 @@ $(document).ready(function() {
   $('.ri-link').click(function() {
     portid = $(this).attr('id');
     portidnum = portid.replace(/\D/g, "");
-    arcticurl = "/port/" + portidnum + ".php";
+    arcticurl = "preview/preview-" + portidnum +".php";
     $.arcticmodal({
       type: 'ajax',
       url: (arcticurl),

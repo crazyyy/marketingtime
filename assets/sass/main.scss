@@ -1795,14 +1795,11 @@ b.riboldrub {
 .megamenu_container {
   z-index: 99;
 
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0 auto;
   /* height: 46px; */
 
   *height: 44px;
-      -ms-box-sizing: border-box;
 }
 
 .megamenu_fixed {
@@ -1811,9 +1808,7 @@ b.riboldrub {
 
   width: inherit;
 
-  -webkit-border-radius: 0 0 3px 3px;
-     -moz-border-radius: 0 0 3px 3px;
-          border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
   /* IE7 Fix */
 
   *width: expression(this.parentNode.currentStyle['width']);
@@ -1834,6 +1829,7 @@ b.riboldrub {
   button {
     font-size: 16px !important;
 
+    height: 30px !important;
     padding: 0 10px;
   }
   > li {

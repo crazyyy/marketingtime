@@ -22,7 +22,7 @@
       <div class="container clearfix" id="sliwhov">
         <div class="meuleft">
           <div class="logo">
-            <a href="./index_files/index.html">
+            <a href="/">
               <img src="img/logo.png">
               <div class="logori">
 
@@ -35,15 +35,15 @@
           <div class="single-page-nav">
             <div class="inner">
               <ul>
-                <li><a href="http://marketingtime.ru/#top" class="current">главная</a>
+                <li><a href="#top">главная</a>
                 </li>
-                <li><a href="http://marketingtime.ru/#services">наши услуги</a>
+                <li><a href="#services">наши услуги</a>
                 </li>
-                <li><a href="http://marketingtime.ru/#results">результаты работы</a>
+                <li><a href="#results">результаты работы</a>
                 </li>
-                <li><a href="http://marketingtime.ru/#about">о компании</a>
+                <li><a href="#about">о компании</a>
                 </li>
-                <li><a href="http://marketingtime.ru/#contacts">контакты</a>
+                <li><a href="#contacts">контакты</a>
                 </li>
               </ul>
             </div>
@@ -354,8 +354,10 @@
           </div>
         </li>
       </ul>
-
-
+      <div class="bx-pagerr">
+        <a data-slide-index="0" href="" class="active">1</a>
+        <a data-slide-index="1" href="">2</a>
+      </div>
     </div>
   </section>
   <section id="results">
@@ -363,10 +365,10 @@
     <div class="container">
       <h2>Посмотрите на результаты нашей работы</h2>
       <div id="resultslider-pager">
-        <a data-slide-index="0" href="http://marketingtime.ru/#" class="active">Landing Page</a>
-        <a data-slide-index="1" href="http://marketingtime.ru/#">Яндекс.Директ</a>
-        <a data-slide-index="2" href="http://marketingtime.ru/#">Google Adwords</a>
-        <a data-slide-index="3" href="http://marketingtime.ru/#">Маркетинг-киты и презентации</a>
+        <a data-slide-index="0" href="#" class="active">Landing Page</a>
+        <a data-slide-index="1" href="#">Яндекс.Директ</a>
+        <a data-slide-index="2" href="#">Google Adwords</a>
+        <a data-slide-index="3" href="#">Маркетинг-киты и презентации</a>
       </div>
       <ul class="resultslider">
         <li>
@@ -387,7 +389,7 @@
                 <br>
                 <br>Цена заявки - <b class="riboldrub">82</b>
               </p>
-              <a class="ri-link rrmodal" id="port1" href="http://marketingtime.ru/#">Посмотреть LP полностью</a>
+              <a class="ri-link rrmodal" id="port1" href="#">Посмотреть LP полностью</a>
               <a class="ri-link rrblank" href="http://forte-moscow.ru/15/" target="_blank">Посмотреть LP полностью</a>
             </div>
           </div>
@@ -406,7 +408,7 @@
                 <br>
                 <br>Цена заявки - <b class="riboldrub">120</b>
               </p>
-              <a class="ri-link rrmodal" id="port2" href="http://marketingtime.ru/#">Посмотреть LP полностью</a>
+              <a class="ri-link rrmodal" id="port2" href="#">Посмотреть LP полностью</a>
               <a class="ri-link rrblank" href="http://danilovskaya.com/" target="_blank">Посмотреть LP полностью</a>
             </div>
           </div>
@@ -424,7 +426,7 @@
                 <br>
                 <br>Цена заявки - <b class="riboldrub">805</b>
               </p>
-              <a class="ri-link rrmodal" id="port3" href="http://marketingtime.ru/#">Посмотреть LP полностью</a>
+              <a class="ri-link rrmodal" id="port3" href="#">Посмотреть LP полностью</a>
               <a class="ri-link rrblank" href="http://superokna-ug.ru/1/" target="_blank">Посмотреть LP полностью</a>
             </div>
           </div>
@@ -443,7 +445,7 @@
                 <br>
                 <br>Цена заявки - <b class="riboldrub">244</b>
               </p>
-              <a class="ri-link rrmodal" id="port4" href="http://marketingtime.ru/#">Посмотреть LP полностью</a>
+              <a class="ri-link rrmodal" id="port4" href="#">Посмотреть LP полностью</a>
               <a class="ri-link rrblank" href="http://chmebel.ru/1/" target="_blank">Посмотреть LP полностью</a>
             </div>
           </div>
@@ -463,7 +465,7 @@
                 <br>Цена заявки не более
                 <br><b class="riboldrub">100</b>
               </p>
-              <a class="ri-link rrmodal" id="port5" href="http://marketingtime.ru/#">Посмотреть LP полностью</a>
+              <a class="ri-link rrmodal" id="port5" href="#">Посмотреть LP полностью</a>
               <a class="ri-link rrblank" href="http://www.iloveme.su/wholesale.html" target="_blank">Посмотреть LP полностью</a>
             </div>
           </div>
@@ -482,7 +484,7 @@
                 <br>
                 <br>Цена заявки - <b class="riboldrub">890</b>
               </p>
-              <a class="ri-link rrmodal" id="port6" href="http://marketingtime.ru/#">Посмотреть LP полностью</a>
+              <a class="ri-link rrmodal" id="port6" href="#">Посмотреть LP полностью</a>
               <a class="ri-link rrblank" href="http://grandweddings.ru/" target="_blank">Посмотреть LP полностью</a>
             </div>
           </div>
@@ -736,10 +738,10 @@
     <div class="container">
       <h2>Как мы добиваемся столь высоких результатов?</h2>
       <div id="howresultslider-pager">
-        <a data-slide-index="0" href="http://marketingtime.ru/#" class="active">Landing Page</a>
-        <a data-slide-index="1" href="http://marketingtime.ru/#">Яндекс.Директ</a>
-        <a data-slide-index="2" href="http://marketingtime.ru/#">Google Adwords</a>
-        <a data-slide-index="3" href="http://marketingtime.ru/#">Маркетинг-киты и презентации</a>
+        <a data-slide-index="0" href="#" class="active">Landing Page</a>
+        <a data-slide-index="1" href="#">Яндекс.Директ</a>
+        <a data-slide-index="2" href="#">Google Adwords</a>
+        <a data-slide-index="3" href="#">Маркетинг-киты и презентации</a>
       </div>
 
       <ul class="howresultslider">
@@ -1011,7 +1013,7 @@
   <section id="contacts">
     <div class="dirabk" id="contactslink"></div>
     <div id="map">
-
+    <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=8A3z_6783_Ql2s-0snEXI5P1BpGRlqVK&height=500"></script>
     </div>
   </section>
 
@@ -1032,12 +1034,10 @@
 
             <p class="logotext">MarketingTime</p>
             <p class="logodesc">маркетинговое агентство</p>
-            <p class="logodesc">подразделение <span>LandingPage.bz</span>
-            </p>
           </div>
         </a>
       </div>
-      <a href="http://marketingtime.ru/#" class="conf">Политика конфиденциальности</a>
+      <a href="#" class="conf">Политика конфиденциальности</a>
       <div class="fottrigh">
         <div class="phonetop"><a href="tel:88007755841">8 (800) 775-58-41</a>
         </div>
@@ -1046,30 +1046,6 @@
     </div>
     <p style=" display: block; text-align: center; font-size: 10px; padding-bottom: 5px; color:#fff;">© MarketingTime.bz. Все права защищены. Копирование материалов запрещено!</p>
   </footer>
-
-
-
-
-      <form class="landform" action="data/form.php" method="POST">
-        <h3>Оставьте заявку</h3>
-        <p><span>на бесплатный тест-драйв</span> в течение 14 дней и наш менеджер перезвонит вам в течение 15 минут</p>
-        <input type="text" name="name" placeholder="Введите Ваше имя" />
-        <input type="tel" name="phone" placeholder="Укажие телефон 0 (000) 000-00-00" />
-        <input type="hidden" name="hidden" value="ok">
-        <button>Отправить</button>
-        <h6 class="message">Отправляем...</h6>
-        <div class="thanx">
-          <h4>Благодарим вас за заявку</h4>
-          <p>Менеджер свяжется с вами в ближайшее время. <br>
-          А пока можете:</p>
-          <ul>
-            <li>посмотреть короткое видео <a href='https://www.youtube.com/watch?v=9lhxtPUNP4I' target="_blank" class='yt'>«Уничтожитель комаров SketteerVac»</a></li>
-            <li>ознакомиться с <a href='instruction.pdf' target="_blank" class='pdf'>инструкцией по применению</a></li>
-          </ul>
-        </div><!-- thanx -->
-      </form>
-
-
 
   <div style="display:none">
     <div class="modalca" id="modalf">
